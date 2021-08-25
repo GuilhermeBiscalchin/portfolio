@@ -1,0 +1,45 @@
+body{
+    background-color:#dae1e7;
+}
+
+.tamanho-estilo{
+    width: 18rem;
+    border-color: #142850;
+    background-color:#fff;
+}
+
+.fonte-estilo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.fonte-descricao{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cor-botao{
+    background-color:#00909e;
+    color:#fff;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.footer-estilo{
+    font-size: 20px;;
+    text-decoration: none;
+    color:#142850;
+}
+.estilo-footer{
+    text-decoration: none;
+    color:#142850; 
+}
+
+
+/* paleta de cores 
+#dae1e7
+#142850
+#00909e
+#fff
+*/
+

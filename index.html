@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-light p-2">
+        <div class="container-fluid justify-content-start align-items-center">
+          <a class="navbar-brand" href="https://github.com/GuilhermeBiscalchin" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/guilherme-biscalchin-b509515a/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <label for="portfólio" class="navbar-brand p-2 fonte-estilo"
+            >Portfólio</label
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2 class="text-center p-5 fonte-estilo">
+          Projetos criado com em estudo das linguagens de Front-End
+        </h2>
+      </section>
+
+      <section class="container">
+        <div class="row justify-content-md-center">
+          <article class="card tamanho-estilo col-md-4 p-0 m-3 col-12">
+            <img
+              src="./src/img/letmeask.jpg"
+              class="card-img-top"
+              alt="Projeto 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title fonte-estilo">Letmeask</h5>
+              <p class="card-text fonte-descricao">Criação de sala para perguntas</p>
+              <a href="#" class="btn cor-botao" data-bs-toggle="modal" data-bs-target="#info-modal">Detalhes do projeto</a>
+              <a class="btn cor-botao" href="https://teste-gap.web.app/" role="button" target="_blank">Acessar</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="p-5 footer-estilo">
+      <p class="m-0 text-center fonte-estilo ">
+        contato:
+        <a class="link estilo-footer" href="mailto:representacoesgap@gmail.com"
+          >representacoesgap@gmail.com</a
+        >
+      </p>
+    </footer>
+     <!-- Modal -->
+     <div class="modal" tabindex="-1" id="info-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Detalhes</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Autenticação pelo Google, utilizando o Firebase. Aplicação em TypeScript e ReactJS.
+              Usuário faz o login, e cria uma sala para perguntas, ou acessa a sala com o ID gerado automático.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/f597dff921.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
